@@ -32,7 +32,7 @@ const Status = ({
     const speedPerMinutes = timer > 0 ? Math.round( ( enteredKeyCount / averageWordLength ) * 60 / timer) : 0
 
     useEffect(() => {
-        let timeTimeout : number;
+        let timeTimeout : NodeJS.Timeout;
 
             if ( !isTypeFinished && startCounting ) {
                 if ( lastStatus === isTypeFinished && blur ) {
