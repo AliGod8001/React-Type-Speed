@@ -1,0 +1,32 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.95);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 999;
+}
+
+.content {
+    width: 80%;
+    padding: 1pc;
+}
+
+.title {
+    display: block;
+    color: white;
+    font-size: 19px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.text {
+    color: #dddddd;
+    font-size: 15px;
+    font-weight: 500;
+}

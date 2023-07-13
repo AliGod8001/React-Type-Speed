@@ -1,0 +1,86 @@
+.wrapper {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px 0;
+    padding: 25px 20px;
+    border-radius: 1pc;
+    background-color: var(--wrapper-background);
+    color: var(--type-text-color);
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 500;
+    box-shadow: inset 0 0px 34px -18px var(--box-shadow-color);
+}
+/* 
+.wrapper::-webkit-scrollbar {
+    width: 8px;
+    height: 4px;
+}
+  
+.wrapper::-webkit-scrollbar-thumb {
+    background: #9e9e9e;
+}
+  
+.wrapper::-webkit-scrollbar-track {
+    background: #dadada;
+}      */
+
+.wrapper span {
+    position: relative;
+    padding: 5px 2px;
+}
+
+.wrapper span::before {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+}
+
+.correct {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.correct::before {
+    background-color: var(--primary-color);
+}
+
+.space {
+    display: block;
+    padding: 5px 6px !important;
+}
+
+.next {
+    background-color: var(--primary-subtle-color);
+    color: var(--next-type-text-color);
+}
+
+.next::before {
+    background-color: var(--secondary-color);
+    animation: before 1500ms infinite;
+}
+
+.incorrect {
+    background-color: #ffa7a7;
+    color: red;
+}
+
+.incorrect::before {
+    background-color: #ffa7a7;
+}
+
+@keyframes before {
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}

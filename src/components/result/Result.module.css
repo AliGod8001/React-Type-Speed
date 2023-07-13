@@ -1,0 +1,41 @@
+.wrapper {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.stars-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.info {
+    color: var(--sub-title-color);
+    font-size: 17px;
+    font-weight: 450;
+    text-align: center;
+}
+
+.info span {
+    color: var(--title-color);
+    margin: 0 5px;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.info span.complete {
+    color: var(--complete-color);
+}
+
+.info span.half {
+    color: var(--half-color);
+}
+
+.info span.none {
+    color: var(--none-color);
+}

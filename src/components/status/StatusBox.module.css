@@ -1,0 +1,49 @@
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.header span {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--sub-title-color);
+}
+
+.header .title {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--title-color);
+}
+
+.sub-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.sub-header span {
+    font-size: 12px;
+    font-weight: 300;
+    color: var(--sub-text-color);
+}
+
+.sub-header .sub-title {
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+.img {
+    max-width: 50px;
+}

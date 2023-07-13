@@ -1,0 +1,22 @@
+.key {
+    border: 1px solid var(--key-border-color);
+    outline: none;
+    padding: 12px 25px;
+    border-radius: 0.4pc;
+    background-color: var(--key-background);
+    font-size: 15px;
+    font-weight: 800;
+    color: var(--key-color);
+    box-shadow: rgba(0, 0, 0, 0.08) 1.95px 1.95px 2.6px;
+}
+
+.pressed {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border-color: var(--primary-color);
+    box-shadow: none;
+}
+
+.main {
+    flex: 1.2;
+}

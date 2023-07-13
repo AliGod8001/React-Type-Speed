@@ -1,0 +1,77 @@
+[
+    {
+        "name": "accuracy",
+        "points": [
+            {
+                "down": 0,
+                "up": 30,
+                "point": 1
+            },
+            {
+                "down": 30,
+                "up": 60,
+                "point": 1.5
+            },
+            {
+                "down": 60,
+                "up": 90,
+                "point": 2
+            },
+            {
+                "down": 90,
+                "up": 100,
+                "point": 2.5
+            }
+        ]
+    },
+    {
+        "name": "speed",
+        "points": [
+            {
+                "down": 0,
+                "up": 40,
+                "point": 1
+            },
+            {
+                "down": 40,
+                "up": 60,
+                "point": 1.5
+            },
+            {
+                "down": 60,
+                "up": 100,
+                "point": 2
+            },
+            {
+                "down": 100,
+                "up": 200,
+                "point": 3
+            }
+        ]
+    },
+    {
+        "name": "wrongCount",
+        "points": [
+            {
+                "down": 0,
+                "up": 10,
+                "point": -0.6
+            },
+            {
+                "down": 10,
+                "up": 20,
+                "point": -0.7
+            },
+            {
+                "down": 20,
+                "up": 40,
+                "point": -1
+            },
+            {
+                "down": 40,
+                "up": 100,
+                "point": -1.5
+            }
+        ]
+    }
+]

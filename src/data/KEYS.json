@@ -1,0 +1,256 @@
+{
+    "firstLayer": [
+        {
+            "key": "`",
+            "keyCode": "backquote"
+        },
+        {
+            "key": "1",
+            "keyCode": "digit1"
+        },
+        {
+            "key": "2",
+            "keyCode": "digit2"
+        },
+        {
+            "key": "3",
+            "keyCode": "digit3"
+        },
+        {
+            "key": "4",
+            "keyCode": "digit4"
+        },
+        {
+            "key": "5",
+            "keyCode": "digit5"
+        },
+        {
+            "key": "6",
+            "keyCode": "digit6"
+        },
+        {
+            "key": "7",
+            "keyCode": "digit7"
+        },
+        {
+            "key": "8",
+            "keyCode": "digit8"
+        },
+        {
+            "key": "9",
+            "keyCode": "digit9"
+        },
+        {
+            "key": "0",
+            "keyCode": "digit0"
+        },
+        {
+            "key": "-",
+            "keyCode": "minus"
+        },
+        {
+            "key": "=",
+            "keyCode": "equal"
+        },
+        {
+            "key": "Backspace",
+            "keyCode": "backspace"
+        }
+    ],
+    "secondLayer": [
+        {
+            "key": "tab",
+            "keyCode": "tab"
+        },
+        {
+            "key": "q",
+            "keyCode": "q"
+        },
+        {
+            "key": "w",
+            "keyCode": "w"
+        },
+        {
+            "key": "e",
+            "keyCode": "e"
+        },
+        {
+            "key": "r",
+            "keyCode": "r"
+        },
+        {
+            "key": "t",
+            "keyCode": "t"
+        },
+        {
+            "key": "y",
+            "keyCode": "y"
+        },
+        {
+            "key": "u",
+            "keyCode": "u"
+        },
+        {
+            "key": "i",
+            "keyCode": "i"
+        },
+        {
+            "key": "o",
+            "keyCode": "o"
+        },
+        {
+            "key": "p",
+            "keyCode": "p"
+        },
+        {
+            "key": "[",
+            "keyCode": "bracketleft"
+        },
+        {
+            "key": "]",
+            "keyCode": "bracketright"
+        },
+        {
+            "key": "\\",
+            "keyCode": "backslash"
+        }
+    ],
+    "thirdLayer": [
+        {
+            "key": "Caps Lock",
+            "keyCode": "capslock"
+        },
+        {
+            "key": "a",
+            "keyCode": "a"
+        },
+        {
+            "key": "s",
+            "keyCode": "s"
+        },
+        {
+            "key": "d",
+            "keyCode": "d"
+        },
+        {
+            "key": "f",
+            "keyCode": "f"
+        },
+        {
+            "key": "g",
+            "keyCode": "g"
+        },
+        {
+            "key": "h",
+            "keyCode": "h"
+        },
+        {
+            "key": "j",
+            "keyCode": "j"
+        },
+        {
+            "key": "k",
+            "keyCode": "k"
+        },
+        {
+            "key": "l",
+            "keyCode": "l"
+        },
+        {
+            "key": ";",
+            "keyCode": "semicolon"
+        },
+        {
+            "key": "'",
+            "keyCode": "quote"
+        },
+        {
+            "key": "Enter",
+            "keyCode": "enter"
+        }
+    ],
+    "forthLayer": [
+        {
+            "key": "Shift",
+            "keyCode": "shiftleft"
+        },
+        {
+            "key": "z",
+            "keyCode": "z"
+        },
+        {
+            "key": "x",
+            "keyCode": "x"
+        },
+        {
+            "key": "c",
+            "keyCode": "c"
+        },
+        {
+            "key": "v",
+            "keyCode": "v"
+        },
+        {
+            "key": "b",
+            "keyCode": "b"
+        },
+        {
+            "key": "n",
+            "keyCode": "n"
+        },
+        {
+            "key": "m",
+            "keyCode": "m"
+        },
+        {
+            "key": ",",
+            "keyCode": "comma"
+        },
+        {
+            "key": ".",
+            "keyCode": "period"
+        },
+        {
+            "key": "/",
+            "keyCode": "slash"
+        },
+        {
+            "key": "Shift",
+            "keyCode": "shiftright"
+        }
+    ],
+    "fifthLayer": [
+        {
+            "key": "Ctrl",
+            "keyCode": "controlleft"
+        },
+        {
+            "key": "windows",
+            "keyCode": "metaleft"
+        },
+        {
+            "key": "Alt",
+            "keyCode": "altleft"
+        },
+        {
+            "key": "Space",
+            "keyCode": "space"
+        },
+        {
+            "key": "Alt",
+            "keyCode": "altright"
+        },
+        {
+            "key": "Fn",
+            "keyCode": "Fn"
+        },
+        {
+            "key": "Led",
+            "keyCode": "Led"
+        },
+        {
+            "key": "Ctrl",
+            "keyCode": "controlright"
+        }
+    ]
+}
