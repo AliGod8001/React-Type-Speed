@@ -19,14 +19,15 @@
 
 .title {
     display: block;
-    color: #242424;
+    color: var(--secondary-color);
     font-size: 19px;
     font-weight: 800;
+    line-height: 27px;
     margin-bottom: 15px;
 }
 
 .text {
-    color: #747070;
+    color: var(--secondary-color);
     font-size: 15px;
     font-weight: 500;
 }
