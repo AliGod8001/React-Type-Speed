@@ -30,13 +30,13 @@ const Wrapper = ({
         }
     }, [])
 
-    return <>
-        {windowWidth < 992 && <OverlayWarning />}
-        <SocialsList />
-        <div className={styles.wrapper}>
-            {children}
-        </div>
-    </>
+    let output = <><SocialsList /><div className={styles.wrapper}>{children}</div></>
+
+    if ( windowWidth < 992 ) {
+        output = <OverlayWarning />
+    }
+
+    return <>{output}</>
 }
 
 export default Wrapper;

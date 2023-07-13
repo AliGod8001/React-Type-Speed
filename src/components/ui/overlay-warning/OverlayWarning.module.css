@@ -4,7 +4,7 @@
     left: 0;
     width: 100%;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.55);
+    background-color: var(--primary-color);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,14 +19,14 @@
 
 .title {
     display: block;
-    color: white;
+    color: #242424;
     font-size: 19px;
     font-weight: 800;
     margin-bottom: 15px;
 }
 
 .text {
-    color: #dddddd;
+    color: #747070;
     font-size: 15px;
     font-weight: 500;
 }
