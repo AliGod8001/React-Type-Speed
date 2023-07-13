@@ -28,7 +28,7 @@ const setRandomSentence = (dummy = false) => {
 
 const Index = () => {
     const [sentence, setSentence] = useState<string>(() => {
-        return setRandomSentence(true)
+        return setRandomSentence()
     })
     const [enteredSentence, setEnteredSentence] = useState<string>("")
     const [lastKeyPressed, setLastKeyPressed] = useState<string[]>([])
@@ -47,7 +47,7 @@ const Index = () => {
     const finishTypePlay = useAudio(finishTypeAudio)
 
     const initializeType = useCallback(() => {
-        setSentence(setRandomSentence(true))
+        setSentence(setRandomSentence())
         setEnteredSentence("")
         setLastKeyPressed([])
         setWrongKeyPressed([])
