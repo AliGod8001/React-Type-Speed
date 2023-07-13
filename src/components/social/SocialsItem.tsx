@@ -8,13 +8,13 @@ const SocialsItem = ({
 }) => { 
     const imagePrefix = import.meta.env.PROD ? import.meta.env.BASE_URL : "/" 
 
-    return <div className={styles.item}>
+    return <a className={styles.item} href={data.url} target='_blank'>
         <img 
             className={styles.img}
             src={`${imagePrefix}${data.image}`} 
             alt={`${data.name} socail media image`} />
-        <span className={styles.id}>@{data.social_id}</span>
-    </div>
+        <span className={styles.id}>{data.social_id}</span>
+    </a>
 }
 
 export default SocialsItem
